@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "django-authx"
-version = "0.1.0"
+name = "alfer-django-authx"
+version = "0.1.1"
 description = "Reusable Django authentication package with email-based authentication, OTP verification, password reset, and JWT support."
 readme = "README.md"
 requires-python = ">=3.10"

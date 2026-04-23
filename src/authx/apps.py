@@ -8,4 +8,4 @@ class AuthxConfig(AppConfig):
 
     def ready(self):
         import authx.receivers
-        
+        import authx.checks

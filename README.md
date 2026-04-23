@@ -1,6 +1,6 @@
-# django-authx
+# alfer-django-authx
 
-Reusable Django authentication package with email-based authentication, OTP verification, and JWT support.
+A reusable Django authentication package with email-based login, OTP verification, password reset, JWT authentication, and role-based permissions.
 
 ---
 
@@ -15,8 +15,7 @@ Reusable Django authentication package with email-based authentication, OTP veri
 - JWT authentication (access + refresh tokens)
 - Role-based permissions (Admin / Manager / User)
 - Fully configurable via `.env`
-- Clean and consistent API response format
-- Production-ready structure
+- Clean API response format
 - Custom signals for extensibility
 
 ---
@@ -24,19 +23,4 @@ Reusable Django authentication package with email-based authentication, OTP veri
 ## 📦 Installation
 
 ```bash
-pip install -e .
-
-
-## 🔔 Available Signals
-
-The package exposes the following Django signals:
-
-- `otp_created`
-- `user_verified`
-- `password_reset_done`
-
-These can be used to hook in custom business logic such as:
-- sending notifications
-- audit logging
-- onboarding flows
-- analytics events
+pip install alfer-django-authx
